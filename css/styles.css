@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@900&display=swap');
+/* Color selection */
+/* #00e0ff */
+/* #74f9ff */
+/* #a6fff2 */
+/* #e8ffe8 */
+
+.container{
+    margin:0 auto;
+    background-color: #00e0ff;
+    padding:20px 20px;
+    width:700px;
+    border-radius:20px;
+    border:2px solid black;
+}
+
+table{
+    margin:0 auto;
+    border-collapse:collapse;
+}
+
+#block-4,#block-5,#block-6{
+    border-top: 4px solid  #74f9ff;
+    border-bottom:4px solid  #74f9ff;
+}
+
+#block-2,#block-5,#block-8{
+    border-left:4px solid  #74f9ff;
+    border-right:4px solid  #74f9ff;
+}
+
+td{
+    background-color: #00e0ff;
+    height:160px;
+    width:160px;
+}
+
+.block{
+    text-align:center;
+}
+
+.x:after{
+    content:"X";
+    font-size:8rem;
+    font-family:"Montserrat";
+    font-weight:700;
+    color:#a6fff2;
+}
+
+.o:after{
+    content:"O";
+    font-size:8rem;
+    font-family:"Montserrat";
+    font-weight:700;
+    color:#a6fff2;
+}
+
+.name{
+    font-family:"Roboto";
+    font-size:25px;
+    color:#74f9ff;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+#reset{
+    font-family:"Roboto";
+    font-size:25px;
+    color:#74f9ff;
+    text-align:right;
+    margin:30px;
+}
+
+.winEffects{
+    background-color:#e8ffe8;
+}
+
+.winEffects:after{
+    color:#00e0ff;
+}
+
+#status{
+    font-family:"Roboto";
+    font-size:25px;
+    color:#74f9ff;
+    text-align:center;
+    margin:50px;
+}
