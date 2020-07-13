@@ -52,9 +52,7 @@ function checkWinner(){
         bottomRight=blocks[8].classList[1];
 
         //if all are not empty then game is tied
-        if(topLeft && topMiddle && topRight && middleLeft && middleMiddle && middleRight && bottomLeft && bottomMiddle && bottomRight){
-            status.innerHTML="It's a tie!"
-        }else if(topLeft && topLeft === topMiddle && topLeft === topRight) {
+        if(topLeft && topLeft === topMiddle && topLeft === topRight) {
             handleWinner();
             blocks[0].classList.add('winEffects');
             blocks[1].classList.add('winEffects');
@@ -94,6 +92,8 @@ function checkWinner(){
             blocks[2].classList.add('winEffects');
             blocks[4].classList.add('winEffects');
             blocks[6].classList.add('winEffects');
+        }else if(topLeft && topMiddle && topRight && middleLeft && middleMiddle && middleRight && bottomLeft && bottomMiddle && bottomRight){
+            status.innerHTML="It's a tie!"
         }else{
             current=current==="x"?"o":"x";
             if(current==="x"){
