@@ -94,6 +94,7 @@ function checkWinner(){
             blocks[6].classList.add('winEffects');
         }else if(topLeft && topMiddle && topRight && middleLeft && middleMiddle && middleRight && bottomLeft && bottomMiddle && bottomRight){
             status.innerHTML="It's a tie!"
+            gameOn=false;
         }else{
             current=current==="x"?"o":"x";
             if(current==="x"){
