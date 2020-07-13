@@ -87,7 +87,7 @@ td{
     margin:50px;
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     .container{
         width:500px;
     }
@@ -106,7 +106,7 @@ td{
     }
 }
 
-@media (max-width: 580px){
+@media only screen and (max-width: 580px){
     .container{
         width:400px;
     }
