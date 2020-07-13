@@ -86,3 +86,33 @@ td{
     text-align:center;
     margin:50px;
 }
+
+@media (max-width: 768px){
+    .container{
+        width:500px;
+    }
+
+    td{
+        width:75px;
+        height:75px;
+    }
+
+    .x:after{
+        font-size:4rem;
+    }
+
+    .o:after{
+        font-size:4rem;
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+        width:400px;
+    }
+
+    td{
+        width:75px;
+        height:75px;
+    }
+}
