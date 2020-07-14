@@ -90,25 +90,6 @@ td{
     margin:50px;
 }
 
-@media only screen and (max-width: 768px){
-    .container{
-        width:500px;
-    }
-
-    td{
-        width:75px;
-        height:75px;
-    }
-
-    .x:after{
-        font-size:4rem;
-    }
-
-    .o:after{
-        font-size:4rem;
-    }
-}
-
 @media only screen and (max-width: 580px){
     .container{
         width:400px;
