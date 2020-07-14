@@ -9,7 +9,7 @@
     margin:0 auto;
     background-color: #00e0ff;
     padding:20px 20px;
-    width:700px;
+    width:500px;
     border-radius:20px;
     border:2px solid black;
 }
@@ -31,8 +31,8 @@ table{
 
 td{
     background-color: #00e0ff;
-    height:160px;
-    width:160px;
+    height:75px;
+    width:75px;
 }
 
 .block{
@@ -41,18 +41,18 @@ td{
 
 .x:after{
     content:"X";
-    font-size:8rem;
+    font-size:3.5rem;
     font-family:"Montserrat";
     font-weight:700;
-    color:#a6fff2;
+    color:#336d88;
 }
 
 .o:after{
     content:"O";
-    font-size:8rem;
+    font-size:3.5rem;
     font-family:"Montserrat";
     font-weight:700;
-    color:#a6fff2;
+    color:#cbf1f5;
 }
 
 .name{
@@ -71,12 +71,15 @@ td{
     margin:30px;
 }
 
+#reset:hover{
+    color:#e8ffe8;
+}
 .winEffects{
     background-color:#e8ffe8;
 }
 
 .winEffects:after{
-    color:#00e0ff;
+    color:gray;
 }
 
 #status{
